@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the word</h1>
+        <div class="content">
+            <input type="text" class="answer-input" maxlength="1">
+            <div class="inputs">
+           
+            </div>
+            <div class="details">
+                <p class="hint">Clue: <span></span></p>
+                <p class="guess-left">Remaining Number of Guesses: <span></span></p>
+                <p class="wrong-letter">Wrong Letter: <span></span></p>
+            </div>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/words.js"></script>
+</body>
+</html>
