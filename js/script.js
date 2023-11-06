@@ -15,10 +15,10 @@ const randomWord = () => {
     let html = "";
 
     for (let i = 0; i < words.length; i++) {
-        html += '<input type="text" disabled>'
+        html += `<input type="text" disabled>`;
     }
     inputs.innerHTML = html;
 }
 randomWord()
 
-resetBtn.addEventListener("click", randomWord)
+resetBtn.addEventListener("click", randomWord);
