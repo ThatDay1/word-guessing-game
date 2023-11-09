@@ -29,7 +29,7 @@ body, .content .input {
 }
 
 .container {
-    width: 700px;
+    width: 850px;
     background-color: var(--container);
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(65, 65, 65, 0.1);
@@ -47,10 +47,10 @@ body, .content .input {
     margin: 25px 25px 35px;
 }
 
-/*.content .answer-input {
+.content .answer-input {
     opacity: 0;
 }
-*/
+
 
 .content .input {
     flex-wrap: wrap;
